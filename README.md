@@ -34,3 +34,9 @@ In another terminal, run:
 or
 
     gdb -tui
+
+# Note:
+
+This OS is designed to run on a Linux enabled machine. I developed it on a Windows machine with Linux Subsystem for Windows installed. You will also require QEMU installed. Run this command to get it:sudo apt install qemu qemu-kvm libvirt-bin
+
+Then, run make qemu nox if using the LSFW.
